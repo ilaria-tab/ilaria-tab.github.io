@@ -1,6 +1,8 @@
-# Workshop webpage
+# Personal webpage
 
-Static GitHub Pages site for a workshop, associated with the GitHub profile [`ilaria-tab`](https://github.com/ilaria-tab).
+Static GitHub Pages site for the personal webpage of [`ilaria-tab`](https://github.com/ilaria-tab).
+
+The workshop page is available under `/events/`.
 
 ## Publish
 
