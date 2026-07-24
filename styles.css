@@ -236,6 +236,70 @@ h1 {
 .publication-list ul { padding-left: 1.25rem; }
 .publication-list li { margin-bottom: 0.9rem; }
 
+.publications {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publication {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr) auto;
+  gap: 0.35rem 1rem;
+  align-items: start;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.pub-year {
+  grid-row: span 3;
+  justify-self: start;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+  font-weight: 850;
+}
+
+.pub-authors {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.pub-title {
+  display: block;
+  color: var(--text);
+  font-weight: 780;
+  font-size: 1.05rem;
+}
+
+.pub-journal {
+  color: var(--primary-dark);
+  font-style: italic;
+}
+
+.pub-link {
+  grid-column: 3;
+  grid-row: 1 / span 3;
+  align-self: center;
+  padding: 0.52rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--primary-dark);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.pub-link:hover {
+  background: var(--primary-soft);
+}
+
 .social-links a, .card a {
   display: inline-block;
   padding: 0.62rem 0.82rem;
@@ -277,4 +341,7 @@ footer {
   .profile-photo { width: 112px; height: 112px; order: -1; }
   .links { gap: 0.25rem; }
   .section { padding: 2.5rem 1.25rem; }
+  .publication { grid-template-columns: 1fr; }
+  .pub-year, .pub-link { grid-column: auto; grid-row: auto; }
+  .pub-link { justify-self: start; }
 }
