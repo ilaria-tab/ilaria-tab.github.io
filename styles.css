@@ -233,6 +233,11 @@ h1 {
 .timeline-item strong { color: var(--primary-dark); }
 .timeline-item p { margin-bottom: 0; }
 
+.highlight-name {
+  color: var(--primary-dark);
+  font-weight: 850;
+}
+
 .publication-list ul { padding-left: 1.25rem; }
 .publication-list li { margin-bottom: 0.9rem; }
 
