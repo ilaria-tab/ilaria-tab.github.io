@@ -203,8 +203,10 @@ h1 {
   gap: 2rem;
 }
 
-.profile-hero h1 {
-  font-size: clamp(1.9rem, 4vw, 3rem);
+.personal-hero .profile-hero h1 {
+  font-size: clamp(1.55rem, 3vw, 2.25rem);
+  line-height: 1.12;
+  max-width: 560px;
 }
 
 .profile-photo {
