@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Workshop Title | ilaria-tab</title>
+  <meta name="description" content="Workshop webpage organized by ilaria-tab." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="https://github.com/ilaria-tab">ilaria-tab</a>
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#program">Program</a>
+        <a href="#registration">Registration</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Workshop</p>
+      <h1>Workshop Title</h1>
+      <p class="subtitle">A short one-sentence description of your workshop.</p>
+      <p class="details">Date · Location / Online</p>
+      <a class="button" href="#registration">Register interest</a>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        Add a concise description of the workshop, its goals, target audience,
+        and what participants will learn or discuss.
+      </p>
+    </section>
+
+    <section id="program" class="section cards">
+      <h2>Program</h2>
+      <article class="card">
+        <h3>Session 1</h3>
+        <p>Time · Speaker / activity description</p>
+      </article>
+      <article class="card">
+        <h3>Session 2</h3>
+        <p>Time · Speaker / activity description</p>
+      </article>
+      <article class="card">
+        <h3>Session 3</h3>
+        <p>Time · Speaker / activity description</p>
+      </article>
+    </section>
+
+    <section id="registration" class="section highlight">
+      <h2>Registration</h2>
+      <p>Registration details will be announced soon.</p>
+      <a class="button secondary" href="mailto:your.email@example.com">Contact organizer</a>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        Organizer: <a href="https://github.com/ilaria-tab">ilaria-tab on GitHub</a><br />
+        Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> ilaria-tab · Hosted with GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
