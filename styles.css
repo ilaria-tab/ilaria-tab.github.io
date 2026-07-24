@@ -203,6 +203,10 @@ h1 {
   gap: 2rem;
 }
 
+.profile-hero h1 {
+  font-size: clamp(1.9rem, 4vw, 3rem);
+}
+
 .profile-photo {
   width: 132px;
   height: 132px;
