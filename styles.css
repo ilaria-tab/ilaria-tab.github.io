@@ -3,8 +3,8 @@
   --bg: #fbf7f2;
   --text: #1f2933;
   --muted: #5f6c7b;
-  --primary: #6d28d9;
-  --primary-dark: #4c1d95;
+  --primary: #0f766e;
+  --primary-dark: #134e4a;
   --card: #ffffff;
   --border: #e6ded6;
 }
@@ -25,8 +25,8 @@ a { color: var(--primary); }
   min-height: 72vh;
   padding: 1.25rem;
   background:
-    radial-gradient(circle at top left, rgba(109, 40, 217, 0.24), transparent 36rem),
-    linear-gradient(135deg, #fff7ed 0%, #f5f3ff 100%);
+    radial-gradient(circle at top left, rgba(15, 118, 110, 0.22), transparent 36rem),
+    linear-gradient(135deg, #ecfeff 0%, #f8fafc 52%, #fff7ed 100%);
 }
 
 .nav {
@@ -94,7 +94,7 @@ h1 {
   color: white;
   text-decoration: none;
   font-weight: 800;
-  box-shadow: 0 12px 24px rgba(109, 40, 217, 0.22);
+  box-shadow: 0 12px 24px rgba(15, 118, 110, 0.22);
 }
 
 .button.secondary {
@@ -134,6 +134,85 @@ h1 {
   max-width: 900px;
 }
 
+.profile-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 18px 40px rgba(31, 41, 51, 0.18);
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(260px, 0.8fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.info-box, .timeline-item {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  box-shadow: 0 12px 30px rgba(31, 41, 51, 0.06);
+}
+
+.info-box h3 {
+  margin-bottom: 0.25rem;
+}
+
+.timeline {
+  display: grid;
+  gap: 1rem;
+}
+
+.timeline-item strong {
+  color: var(--primary-dark);
+}
+
+.timeline-item p {
+  margin-bottom: 0;
+}
+
+.publication-list ul {
+  padding-left: 1.25rem;
+}
+
+.publication-list li {
+  margin-bottom: 0.9rem;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--primary-dark);
+  text-decoration: none;
+  font-weight: 700;
+}
+
 footer {
   padding: 2rem 1.25rem;
   text-align: center;
@@ -143,5 +222,7 @@ footer {
 @media (max-width: 760px) {
   .nav { align-items: flex-start; flex-direction: column; }
   .hero-content { margin-top: 4rem; }
-  .cards { grid-template-columns: 1fr; }
+  .profile-hero, .two-column, .cards { grid-template-columns: 1fr; }
+  .profile-photo { width: 170px; height: 170px; order: -1; }
+  .links { gap: 0.75rem; }
 }

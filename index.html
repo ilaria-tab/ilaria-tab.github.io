@@ -3,54 +3,105 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ilaria Tabone | Personal webpage</title>
-  <meta name="description" content="Personal webpage of Ilaria Tabone." />
+  <title>Ilaria Tabone | Glaciologist & Physicist</title>
+  <meta name="description" content="Personal webpage of Dr. Ilaria Tabone, Assistant Professor at the Department of Geophysics, University of Concepción." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
+  <header class="hero personal-hero">
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="/">Ilaria Tabone</a>
       <div class="links">
         <a href="#about">About</a>
         <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
         <a href="/events/">Events</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
 
-    <section class="hero-content">
-      <p class="eyebrow">Personal webpage</p>
-      <h1>Ilaria Tabone</h1>
-      <p class="subtitle">Welcome to my personal webpage.</p>
-      <p class="details">Research · Teaching · Events</p>
-      <a class="button" href="/events/">View events</a>
+    <section class="hero-content profile-hero">
+      <div>
+        <p class="eyebrow">Glaciologist · Physicist · Ice-sheet modeller</p>
+        <h1>Dr. Ilaria Tabone</h1>
+        <p class="subtitle">
+          Assistant Professor at the Department of Geophysics, Universidad de Concepción, Chile.
+        </p>
+        <p class="details">
+          Numerical modelling of glaciers and ice sheets · ice-ocean interactions · climate-driven glacier change
+        </p>
+        <div class="button-row">
+          <a class="button" href="#research">Research</a>
+          <a class="button secondary" href="/events/">Events</a>
+        </div>
+      </div>
+      <img class="profile-photo" src="assets/ilaria-profile.jpg" alt="Ilaria Tabone in the field" />
     </section>
   </header>
 
   <main>
-    <section id="about" class="section">
-      <h2>About</h2>
-      <p>
-        Add a short biography here: your role, affiliation, research interests,
-        and any information you would like visitors to know.
-      </p>
+    <section id="about" class="section two-column">
+      <div>
+        <h2>About</h2>
+        <p>
+          I am a glaciologist and physicist specialized in numerical modelling of glaciers and ice sheets,
+          ice-ocean interactions, and climate-driven glacier change. My work combines field observations,
+          remote sensing, and three-dimensional thermo-mechanical ice-flow modelling, with applications in
+          Greenland, Antarctica, and Patagonia.
+        </p>
+      </div>
+      <div class="info-box">
+        <h3>Current position</h3>
+        <p>Assistant Professor, Department of Geophysics, Universidad de Concepción, Chile.</p>
+        <h3>Teaching</h3>
+        <p>Numerical Methods in Geophysics, Global Physical Climatology, Advanced Numerical Methods in Geophysics, and Foundations of Research.</p>
+      </div>
     </section>
 
     <section id="research" class="section cards">
-      <h2>Research</h2>
+      <h2>Research interests</h2>
       <article class="card">
-        <h3>Research area 1</h3>
-        <p>Add a brief description of one of your research topics.</p>
+        <h3>Ice-sheet and glacier modelling</h3>
+        <p>Numerical modelling of the dynamics and evolution of terrestrial ice bodies across temporal and spatial scales.</p>
       </article>
       <article class="card">
-        <h3>Research area 2</h3>
-        <p>Add a brief description of another topic, project, or publication area.</p>
+        <h3>Ice-climate interactions</h3>
+        <p>Ice-ocean, ice-atmosphere, ice-solid Earth interactions, paleoclimatology, and climate change impacts.</p>
       </article>
       <article class="card">
-        <h3>Activities</h3>
-        <p>Link to talks, teaching, collaborations, or outreach activities.</p>
+        <h3>Patagonia, Greenland & Antarctica</h3>
+        <p>Field observations, remote sensing, glacier hydrology, GLOFs, and tipping points in the Earth system.</p>
       </article>
+    </section>
+
+    <section class="section timeline">
+      <h2>Experience and education</h2>
+      <div class="timeline-item">
+        <strong>2024–ongoing</strong>
+        <p>Assistant Professor, Department of Geophysics, Universidad de Concepción, Chile.</p>
+      </div>
+      <div class="timeline-item">
+        <strong>2020–2024</strong>
+        <p>Postdoctoral researcher and Alexander von Humboldt Fellow, Friedrich-Alexander University Erlangen-Nürnberg, Germany.</p>
+      </div>
+      <div class="timeline-item">
+        <strong>2019</strong>
+        <p>PhD in Physics, Complutense University of Madrid, Spain.</p>
+      </div>
+      <div class="timeline-item">
+        <strong>2015 / 2011</strong>
+        <p>MSc and BSc in Physics, University of Turin, Italy.</p>
+      </div>
+    </section>
+
+    <section id="publications" class="section publication-list">
+      <h2>Selected publications</h2>
+      <ul>
+        <li>Tabone, I. et al. Holocene thinning in central Greenland controlled by the Northeast Greenland Ice Stream. <em>Nature Communications</em>, 2024.</li>
+        <li>Gutiérrez-González, L. et al. Hysteresis of the Greenland ice sheet from the Last Glacial Maximum to the future. <em>The Cryosphere</em>, 2026.</li>
+        <li>Farías-Barahona, D. et al. QFuego-Patagonia: a comprehensive glacier-related dataset for Patagonia and Tierra del Fuego. <em>Journal of Glaciology</em>, 2026.</li>
+        <li>Lutz, K. et al. Multi-annual patterns of rapidly draining supraglacial lakes in Northeast Greenland. <em>The Cryosphere</em>, 2025.</li>
+      </ul>
     </section>
 
     <section class="section highlight">
@@ -60,11 +111,15 @@
     </section>
 
     <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>
-        GitHub: <a href="https://github.com/ilaria-tab">ilaria-tab</a><br />
-        Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
-      </p>
+      <h2>Contact and links</h2>
+      <p>Email: <a href="mailto:itabone@udec.cl">itabone@udec.cl</a></p>
+      <div class="social-links">
+        <a href="https://www.dgeo.udec.cl/ilaria-tabone/">UdeC profile</a>
+        <a href="https://www.researchgate.net/profile/Ilaria-Tabone?ev=hdr_xprf">ResearchGate</a>
+        <a href="https://cl.linkedin.com/in/ilaria-tabone-148831a3">LinkedIn</a>
+        <a href="https://criosfera.udec.cl">Criosfera UdeC</a>
+        <a href="https://github.com/ilaria-tab">GitHub</a>
+      </div>
     </section>
   </main>
 
