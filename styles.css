@@ -297,6 +297,16 @@ h1 {
   gap: 1rem;
 }
 
+.program-date {
+  margin: 1.25rem 0 0.25rem;
+  padding: 0.65rem 0.9rem;
+  border-left: 4px solid var(--primary);
+  border-radius: 0.5rem;
+  background: rgba(223, 244, 251, 0.75);
+  color: var(--primary-dark);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+}
+
 .program-session {
   position: relative;
   overflow: hidden;
