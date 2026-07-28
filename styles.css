@@ -356,7 +356,7 @@ h1 {
   background:
     linear-gradient(90deg, rgba(6, 30, 48, 0.78), rgba(14, 74, 104, 0.46)),
     linear-gradient(180deg, rgba(3, 18, 32, 0.18), rgba(3, 18, 32, 0.58)),
-    url("assets/workshop-patagonia-2026-glacier.jpeg") center 42% / cover no-repeat;
+    url("assets/workshop-patagonia-2026-glacier.jpeg") center bottom / cover no-repeat;
 }
 
 .workshop-hero::after {
