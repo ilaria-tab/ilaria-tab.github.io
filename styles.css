@@ -542,7 +542,9 @@ h1 {
 }
 
 .sponsor-list span {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   padding: 0.45rem 0.65rem;
   border: 1px solid rgba(14, 116, 144, 0.22);
   border-radius: 999px;
@@ -550,6 +552,24 @@ h1 {
   color: var(--primary-dark);
   font-size: 0.86rem;
   font-weight: 750;
+}
+
+.sponsor-list span::before {
+  content: "Logo";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px dashed rgba(14, 116, 144, 0.35);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.75);
+  color: var(--muted);
+  font-size: 0.52rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  flex: 0 0 auto;
 }
 
 .experts-group-title {
