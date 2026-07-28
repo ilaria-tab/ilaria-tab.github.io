@@ -517,59 +517,36 @@ h1 {
   padding-top: 2rem;
 }
 
-.sponsors-columns {
+.partner-logos {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  align-items: center;
 }
 
-.sponsors-columns > div {
+.partner-logos img {
+  display: block;
+  width: 100%;
+  max-height: 110px;
+  object-fit: contain;
   padding: 1rem;
-  background: var(--card);
+  background: #ffffff;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
 
-.sponsors-columns h2 {
-  font-size: clamp(1.2rem, 2vw, 1.45rem);
+.supported-by-section {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
 }
 
-.sponsor-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.sponsor-list span {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.45rem 0.65rem;
-  border: 1px solid rgba(14, 116, 144, 0.22);
-  border-radius: 999px;
-  background: var(--primary-soft);
-  color: var(--primary-dark);
-  font-size: 0.86rem;
-  font-weight: 750;
-}
-
-.sponsor-list span::before {
-  content: "Logo";
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.2rem;
-  height: 2.2rem;
-  border: 1px dashed rgba(14, 116, 144, 0.35);
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.75);
+.supported-by-section p:last-child {
+  margin: 0;
   color: var(--muted);
-  font-size: 0.52rem;
-  font-weight: 850;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  flex: 0 0 auto;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .experts-group-title {
@@ -981,7 +958,7 @@ footer {
 @media (max-width: 760px) {
   .nav { align-items: flex-start; flex-direction: column; }
   .hero-content { margin-top: 4rem; }
-  .profile-hero, .two-column, .registration-workshop, .financial-support-section, .about-workshop, .sponsors-columns, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
+  .profile-hero, .two-column, .registration-workshop, .financial-support-section, .about-workshop, .partner-logos, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
   .profile-photo { width: 112px; height: 112px; order: -1; }
   .day-label, .program-day-label { align-items: flex-start; text-align: left; }
   .links { gap: 0.25rem; }
