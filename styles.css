@@ -351,6 +351,41 @@ h1 {
 
 .page-hero { min-height: 40vh; }
 
+.workshop-hero {
+  color: #f8fcff;
+  background:
+    linear-gradient(90deg, rgba(6, 30, 48, 0.78), rgba(14, 74, 104, 0.46)),
+    linear-gradient(180deg, rgba(3, 18, 32, 0.18), rgba(3, 18, 32, 0.58)),
+    url("assets/workshop-patagonia-2026-glacier.jpeg") center 42% / cover no-repeat;
+}
+
+.workshop-hero::after {
+  background:
+    linear-gradient(140deg, transparent 0 25%, rgba(245,251,255,0.46) 25.2% 38%, transparent 38.2%),
+    linear-gradient(32deg, transparent 0 35%, rgba(207, 235, 246, 0.34) 35.2% 49%, transparent 49.2%);
+}
+
+.workshop-hero .brand,
+.workshop-hero h1,
+.workshop-hero .details {
+  color: #ffffff;
+}
+
+.workshop-hero .links a,
+.workshop-hero .subtitle,
+.workshop-hero .hero-content > p:not(.eyebrow):not(.details) {
+  color: #e4f4fb;
+}
+
+.workshop-hero .eyebrow {
+  color: #bae6fd;
+}
+
+.workshop-hero .links a:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
 .large-links a { padding: 0.9rem 1.1rem; }
 
 footer {
