@@ -163,8 +163,21 @@ h1 {
 
 .section h2 {
   margin-top: 0;
-  margin-bottom: 0.75rem;
-  font-size: clamp(1.4rem, 2.4vw, 1.8rem);
+  margin-bottom: 0.85rem;
+  color: var(--text);
+  font-size: clamp(1.45rem, 2.4vw, 1.8rem);
+  font-weight: 850;
+  line-height: 1.15;
+}
+
+.section-subtitle,
+.experts-group-title,
+.registration-workshop h3 {
+  margin: 1.25rem 0 0.7rem;
+  color: var(--primary-dark);
+  font-size: clamp(1.05rem, 1.7vw, 1.25rem);
+  font-weight: 800;
+  line-height: 1.2;
 }
 
 .cards, .summary-grid {
@@ -468,7 +481,7 @@ h1 {
 }
 
 .financial-support-section h2 {
-  font-size: clamp(1.4rem, 2.4vw, 1.75rem);
+  font-size: clamp(1.45rem, 2.4vw, 1.8rem);
 }
 
 .support-summary {
@@ -579,9 +592,8 @@ h1 {
   text-decoration: underline;
 }
 
-.experts-group-title {
-  margin: 2rem 0 1rem;
-  color: var(--primary-dark);
+.experts-group-title:first-of-type {
+  margin-top: 0.25rem;
 }
 
 .experts-grid {
