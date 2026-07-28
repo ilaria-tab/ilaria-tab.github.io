@@ -166,7 +166,7 @@ h1 {
   margin-bottom: 0.85rem;
   color: var(--text);
   font-size: clamp(1.45rem, 2.4vw, 1.8rem);
-  font-weight: 850;
+  font-weight: 700;
   line-height: 1.15;
 }
 
@@ -176,7 +176,7 @@ h1 {
   margin: 1.1rem 0 0.6rem;
   color: var(--primary-dark);
   font-size: clamp(0.82rem, 1.25vw, 0.98rem);
-  font-weight: 850;
+  font-weight: 700;
   letter-spacing: 0.1em;
   line-height: 1.2;
   text-transform: uppercase;
@@ -413,6 +413,7 @@ h1 {
   margin: 0 0 0.4rem;
   color: var(--text);
   font-size: clamp(1rem, 1.6vw, 1.2rem);
+  font-weight: 700;
 }
 
 .program-session p {
@@ -871,6 +872,7 @@ h1 {
 .workshop-hero h1 {
   max-width: var(--max-width);
   font-size: clamp(2.35rem, 4.8vw, 4.1rem);
+  font-weight: 700;
 }
 
 .workshop-hero .links a,
@@ -892,7 +894,7 @@ h1 {
   max-width: var(--max-width);
   color: #ffffff;
   font-size: clamp(1.18rem, 2.2vw, 1.55rem);
-  font-weight: 750;
+  font-weight: 600;
 }
 
 .workshop-description {
