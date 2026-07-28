@@ -194,7 +194,7 @@ h1 {
 
 .program-section {
   max-width: none;
-  background: linear-gradient(180deg, rgba(223, 244, 251, 0.5), rgba(245, 251, 255, 0.9));
+  background: linear-gradient(180deg, rgba(207, 235, 246, 0.65), rgba(245, 251, 255, 0.92));
 }
 
 .program-section > * {
@@ -402,16 +402,17 @@ h1 {
 
 .workshop-summary {
   padding: 0.85rem;
-  background: linear-gradient(180deg, rgba(223, 244, 251, 0.85), rgba(255, 255, 255, 0.92));
-  border: 1px solid rgba(14, 116, 144, 0.25);
+  background: linear-gradient(180deg, rgba(21, 94, 117, 0.96), rgba(8, 47, 73, 0.96));
+  border: 1px solid rgba(186, 230, 253, 0.28);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  box-shadow: 0 18px 40px rgba(8, 47, 73, 0.22);
   font-size: 0.82rem;
+  color: #e4f4fb;
 }
 
 .workshop-summary h3 {
   margin-top: 0;
-  color: var(--primary-dark);
+  color: #ffffff;
 }
 
 .workshop-summary dl {
@@ -422,7 +423,7 @@ h1 {
 
 .workshop-summary div {
   padding-top: 0.5rem;
-  border-top: 1px solid rgba(14, 116, 144, 0.16);
+  border-top: 1px solid rgba(186, 230, 253, 0.22);
 }
 
 .workshop-summary div:first-child {
@@ -431,7 +432,7 @@ h1 {
 }
 
 .workshop-summary dt {
-  color: var(--primary-dark);
+  color: #bae6fd;
   font-size: 0.66rem;
   font-weight: 850;
   letter-spacing: 0.12em;
@@ -440,7 +441,7 @@ h1 {
 
 .workshop-summary dd {
   margin: 0.1rem 0 0;
-  color: var(--muted);
+  color: #ffffff;
   font-weight: 700;
   line-height: 1.35;
 }
@@ -455,22 +456,23 @@ h1 {
 
 .support-summary {
   padding: 1rem;
-  background: linear-gradient(180deg, var(--primary-soft), rgba(255, 255, 255, 0.9));
-  border: 1px solid rgba(14, 116, 144, 0.25);
+  background: linear-gradient(180deg, rgba(8, 47, 73, 0.96), rgba(14, 116, 144, 0.92));
+  border: 1px solid rgba(186, 230, 253, 0.28);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  box-shadow: 0 18px 40px rgba(8, 47, 73, 0.2);
   font-size: 0.9rem;
+  color: #e4f4fb;
 }
 
 .support-summary h3 {
   margin-top: 0;
-  color: var(--primary-dark);
+  color: #ffffff;
 }
 
 .support-summary ul {
   margin: 0;
   padding-left: 1.1rem;
-  color: var(--muted);
+  color: #e4f4fb;
 }
 
 .support-summary li {
@@ -483,16 +485,17 @@ h1 {
 
 .qr-card {
   padding: 1.25rem;
-  background: var(--card);
-  border: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(21, 94, 117, 0.96), rgba(8, 47, 73, 0.96));
+  border: 1px solid rgba(186, 230, 253, 0.28);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  box-shadow: 0 18px 40px rgba(8, 47, 73, 0.22);
   text-align: center;
+  color: #e4f4fb;
 }
 
 .qr-card h3 {
   margin-top: 0;
-  color: var(--primary-dark);
+  color: #ffffff;
 }
 
 .qr-card img {
@@ -505,7 +508,7 @@ h1 {
 
 .qr-card p {
   margin: 0 0 0.75rem;
-  color: var(--muted);
+  color: #e4f4fb;
   font-size: 0.95rem;
 }
 
@@ -702,6 +705,7 @@ h1 {
 .about-workshop,
 .program-section,
 .experts-section,
+.financial-support-section,
 .registration-workshop {
   font-size: 0.95rem;
 }
