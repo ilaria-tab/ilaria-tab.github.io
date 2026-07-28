@@ -518,9 +518,10 @@ h1 {
 .workshop-description {
   max-width: 980px;
   color: #e4f4fb;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.18rem, 1.9vw, 1.45rem);
-  font-style: italic;
+  font-family: inherit;
+  font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+  font-style: normal;
+  font-weight: 550;
 }
 
 .workshop-meta {
