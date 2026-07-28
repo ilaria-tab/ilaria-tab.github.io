@@ -475,9 +475,7 @@ h1 {
 }
 
 .workshop-hero::after {
-  background:
-    linear-gradient(140deg, transparent 0 25%, rgba(245,251,255,0.46) 25.2% 38%, transparent 38.2%),
-    linear-gradient(32deg, transparent 0 35%, rgba(207, 235, 246, 0.34) 35.2% 49%, transparent 49.2%);
+  display: none;
 }
 
 .workshop-hero .brand,
@@ -499,6 +497,21 @@ h1 {
 .workshop-hero .links a:hover {
   background: rgba(255, 255, 255, 0.18);
   color: #ffffff;
+}
+
+.workshop-hero .subtitle {
+  max-width: 820px;
+  color: #ffffff;
+  font-size: clamp(1.25rem, 2.4vw, 1.75rem);
+  font-weight: 750;
+}
+
+.workshop-description {
+  max-width: 760px;
+  color: #e4f4fb;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.05rem, 1.6vw, 1.22rem);
+  font-style: italic;
 }
 
 .workshop-meta {
