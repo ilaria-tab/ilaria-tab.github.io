@@ -34,43 +34,45 @@
   <main>
     <section class="section registration-form-section">
       <h2>Registration form</h2>
-      <form class="registration-form" action="mailto:itabone@udec.cl" method="post" enctype="text/plain">
+      <form class="registration-form" action="https://formsubmit.co/itabone@udec.cl" method="POST">
+        <input type="hidden" name="_subject" value="Workshop Patagonia 2026 registration" />
+        <input type="hidden" name="_captcha" value="false" />
         <label>
           Name Surname
-          <input type="text" name="Name Surname" required />
+          <input type="text" name="name_surname" required />
         </label>
 
         <label>
           Email address
-          <input type="email" name="Email address" required />
+          <input type="email" name="email" required />
         </label>
 
         <label>
           Affiliation
-          <input type="text" name="Affiliation" required />
+          <input type="text" name="affiliation" required />
         </label>
 
         <fieldset>
           <legend>Current position</legend>
-          <label><input type="radio" name="Current position" value="Undergraduate student" required /> Undergraduate student</label>
-          <label><input type="radio" name="Current position" value="Graduate student" /> Graduate student</label>
-          <label><input type="radio" name="Current position" value="Postdoctoral researcher" /> Postdoctoral researcher</label>
-          <label><input type="radio" name="Current position" value="Researcher or academic" /> Researcher or academic</label>
-          <label><input type="radio" name="Current position" value="Professional" /> Professional</label>
-          <label><input type="radio" name="Current position" value="Other" /> Other</label>
+          <label><input type="radio" name="current_position" value="Undergraduate student" required /> Undergraduate student</label>
+          <label><input type="radio" name="current_position" value="Graduate student" /> Graduate student</label>
+          <label><input type="radio" name="current_position" value="Postdoctoral researcher" /> Postdoctoral researcher</label>
+          <label><input type="radio" name="current_position" value="Researcher or academic" /> Researcher or academic</label>
+          <label><input type="radio" name="current_position" value="Professional" /> Professional</label>
+          <label><input type="radio" name="current_position" value="Other" /> Other</label>
         </fieldset>
 
         <fieldset>
           <legend>Attendance</legend>
-          <label><input type="radio" name="Attendance" value="Both days" required /> Both days</label>
-          <label><input type="radio" name="Attendance" value="19 October only" /> 19 October only</label>
-          <label><input type="radio" name="Attendance" value="20 October only" /> 20 October only</label>
+          <label><input type="radio" name="attendance" value="Both days" required /> Both days</label>
+          <label><input type="radio" name="attendance" value="19 October only" /> 19 October only</label>
+          <label><input type="radio" name="attendance" value="20 October only" /> 20 October only</label>
         </fieldset>
 
         <fieldset>
           <legend>Need for financial support</legend>
-          <label><input type="radio" name="Need for financial support" value="Yes" required /> Yes</label>
-          <label><input type="radio" name="Need for financial support" value="No" /> No</label>
+          <label><input type="radio" name="need_for_financial_support" value="Yes" required /> Yes</label>
+          <label><input type="radio" name="need_for_financial_support" value="No" /> No</label>
         </fieldset>
 
         <button class="button" type="submit">Submit registration</button>
