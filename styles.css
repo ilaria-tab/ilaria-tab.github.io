@@ -297,20 +297,52 @@ h1 {
   gap: 1rem;
 }
 
-.program-date {
-  margin: 1.25rem 0 0.25rem;
-  padding: 0.65rem 0.9rem;
-  border-left: 4px solid var(--primary);
-  border-radius: 0.5rem;
-  background: rgba(223, 244, 251, 0.75);
-  color: var(--primary-dark);
-  font-size: clamp(1.1rem, 2vw, 1.35rem);
+.program-day-card {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.program-day-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.15rem;
+  padding: 1.5rem 0.75rem;
+  color: #ffffff;
+  background: linear-gradient(180deg, var(--primary-dark), var(--primary));
+  text-align: center;
+}
+
+.program-day-num {
+  font-size: 2.45rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.program-day-month,
+.program-day-year {
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.program-day-content {
+  display: grid;
+  gap: 1rem;
+  padding: 1.25rem;
 }
 
 .program-location {
-  margin: -0.1rem 0 0.35rem;
-  color: var(--muted);
-  font-weight: 700;
+  margin: 0;
+  color: var(--primary-dark);
+  font-weight: 750;
 }
 
 .program-session {
@@ -641,9 +673,9 @@ footer {
 @media (max-width: 760px) {
   .nav { align-items: flex-start; flex-direction: column; }
   .hero-content { margin-top: 4rem; }
-  .profile-hero, .two-column, .cards, .summary-grid, .day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
+  .profile-hero, .two-column, .cards, .summary-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
   .profile-photo { width: 112px; height: 112px; order: -1; }
-  .day-label { align-items: flex-start; }
+  .day-label, .program-day-label { align-items: flex-start; text-align: left; }
   .links { gap: 0.25rem; }
   .section { padding: 2.5rem 1.25rem; }
   .publication { grid-template-columns: 1fr; }
