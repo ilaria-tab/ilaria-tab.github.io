@@ -391,11 +391,39 @@ h1 {
   line-height: 1.55;
 }
 
-.registration-workshop {
+.registration-workshop,
+.financial-support-section {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 240px;
   gap: 1.5rem;
   align-items: start;
+}
+
+.support-summary {
+  padding: 1.25rem;
+  background: linear-gradient(180deg, var(--primary-soft), rgba(255, 255, 255, 0.9));
+  border: 1px solid rgba(14, 116, 144, 0.25);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.support-summary h3 {
+  margin-top: 0;
+  color: var(--primary-dark);
+}
+
+.support-summary ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+}
+
+.support-summary li {
+  margin-bottom: 0.55rem;
+}
+
+.support-summary li:last-child {
+  margin-bottom: 0;
 }
 
 .qr-card {
@@ -822,7 +850,7 @@ footer {
 @media (max-width: 760px) {
   .nav { align-items: flex-start; flex-direction: column; }
   .hero-content { margin-top: 4rem; }
-  .profile-hero, .two-column, .registration-workshop, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
+  .profile-hero, .two-column, .registration-workshop, .financial-support-section, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
   .profile-photo { width: 112px; height: 112px; order: -1; }
   .day-label, .program-day-label { align-items: flex-start; text-align: left; }
   .links { gap: 0.25rem; }
