@@ -173,11 +173,13 @@ h1 {
 .section-subtitle,
 .experts-group-title,
 .registration-workshop h3 {
-  margin: 1.25rem 0 0.7rem;
+  margin: 1.1rem 0 0.6rem;
   color: var(--primary-dark);
-  font-size: clamp(1.05rem, 1.7vw, 1.25rem);
-  font-weight: 800;
+  font-size: clamp(0.82rem, 1.25vw, 0.98rem);
+  font-weight: 850;
+  letter-spacing: 0.1em;
   line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .cards, .summary-grid {
@@ -443,6 +445,9 @@ h1 {
 .workshop-summary h3 {
   margin-top: 0;
   color: #ffffff;
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .workshop-summary dl {
@@ -497,6 +502,9 @@ h1 {
 .support-summary h3 {
   margin-top: 0;
   color: #ffffff;
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .support-summary ul {
@@ -526,6 +534,9 @@ h1 {
 .qr-card h3 {
   margin-top: 0;
   color: #ffffff;
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .qr-card img {
