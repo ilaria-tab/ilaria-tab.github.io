@@ -552,6 +552,16 @@ h1 {
   font-weight: 700;
 }
 
+.supported-by-section a {
+  color: var(--primary-dark);
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.supported-by-section a:hover {
+  text-decoration: underline;
+}
+
 .experts-group-title {
   margin: 2rem 0 1rem;
   color: var(--primary-dark);
