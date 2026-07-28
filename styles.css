@@ -399,12 +399,21 @@ h1 {
   align-items: start;
 }
 
+.financial-support-section {
+  font-size: 0.95rem;
+}
+
+.financial-support-section h2 {
+  font-size: clamp(1.4rem, 2.4vw, 1.75rem);
+}
+
 .support-summary {
-  padding: 1.25rem;
+  padding: 1rem;
   background: linear-gradient(180deg, var(--primary-soft), rgba(255, 255, 255, 0.9));
   border: 1px solid rgba(14, 116, 144, 0.25);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  font-size: 0.9rem;
 }
 
 .support-summary h3 {
