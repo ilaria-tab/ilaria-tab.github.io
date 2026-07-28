@@ -633,15 +633,26 @@ h1 {
   text-align: center;
 }
 
+.expert-photo,
+.expert-photo-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 0.9rem;
+  border-radius: calc(var(--radius) - 0.25rem);
+}
+
+.expert-photo {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid var(--border);
+}
+
 .expert-photo-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  margin-bottom: 0.9rem;
   border: 1.5px dashed rgba(14, 116, 144, 0.35);
-  border-radius: calc(var(--radius) - 0.25rem);
   background: linear-gradient(135deg, rgba(223, 244, 251, 0.85), rgba(255, 255, 255, 0.75));
   color: var(--muted);
   font-size: 0.78rem;
