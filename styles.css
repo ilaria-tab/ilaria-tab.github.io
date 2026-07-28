@@ -392,11 +392,57 @@ h1 {
 }
 
 .registration-workshop,
-.financial-support-section {
+.financial-support-section,
+.about-workshop {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 240px;
   gap: 1.5rem;
   align-items: start;
+}
+
+.workshop-summary {
+  padding: 1rem;
+  background: linear-gradient(180deg, rgba(223, 244, 251, 0.85), rgba(255, 255, 255, 0.92));
+  border: 1px solid rgba(14, 116, 144, 0.25);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  font-size: 0.9rem;
+}
+
+.workshop-summary h3 {
+  margin-top: 0;
+  color: var(--primary-dark);
+}
+
+.workshop-summary dl {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0;
+}
+
+.workshop-summary div {
+  padding-top: 0.65rem;
+  border-top: 1px solid rgba(14, 116, 144, 0.16);
+}
+
+.workshop-summary div:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.workshop-summary dt {
+  color: var(--primary-dark);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.workshop-summary dd {
+  margin: 0.1rem 0 0;
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.35;
 }
 
 .financial-support-section {
@@ -859,7 +905,7 @@ footer {
 @media (max-width: 760px) {
   .nav { align-items: flex-start; flex-direction: column; }
   .hero-content { margin-top: 4rem; }
-  .profile-hero, .two-column, .registration-workshop, .financial-support-section, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
+  .profile-hero, .two-column, .registration-workshop, .financial-support-section, .about-workshop, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
   .profile-photo { width: 112px; height: 112px; order: -1; }
   .day-label, .program-day-label { align-items: flex-start; text-align: left; }
   .links { gap: 0.25rem; }
