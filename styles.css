@@ -648,6 +648,10 @@ h1 {
   border: 1px solid var(--border);
 }
 
+.expert-photo-victor {
+  object-position: center 28%;
+}
+
 .expert-photo-placeholder {
   display: flex;
   align-items: center;
