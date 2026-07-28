@@ -604,6 +604,16 @@ h1 {
   text-decoration: underline;
 }
 
+.organized-by-section img {
+  display: block;
+  max-width: 180px;
+  margin: 0.25rem auto 0.75rem;
+  padding: 0.75rem;
+  border-radius: 0.9rem;
+  background: linear-gradient(180deg, rgba(21, 94, 117, 0.96), rgba(8, 47, 73, 0.96));
+  box-shadow: 0 12px 28px rgba(8, 47, 73, 0.18);
+}
+
 .experts-group-title:first-of-type {
   margin-top: 0.25rem;
 }
