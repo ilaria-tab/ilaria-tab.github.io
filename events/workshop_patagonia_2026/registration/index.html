@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Registration | Advances in Patagonian glaciers research</title>
+  <meta name="description" content="Registration form for Advances in Patagonian Glacier Research, 19–20 October 2026, Universidad de Concepción." />
+  <link rel="stylesheet" href="../../../styles.css" />
+</head>
+<body>
+  <header class="hero page-hero">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">Ilaria Tabone</a>
+      <div class="links">
+        <a href="/">Home</a>
+        <a href="/research/">Research</a>
+        <a href="/publications/">Publications</a>
+        <a href="/events/">Events</a>
+        <a href="/contact/">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Workshop registration</p>
+      <h1>Join the workshop</h1>
+      <p class="subtitle">
+        Registration is now open for <em>Advances in Patagonian Glacier Research: Connecting Observations,
+        Modelling and Global Perspectives</em>, taking place on 19–20 October 2026 at the Universidad de Concepción.
+      </p>
+      <p class="details">Participation is free of charge, but registration is required because the number of places is limited.</p>
+    </section>
+  </header>
+
+  <main>
+    <section class="section registration-form-section">
+      <h2>Registration form</h2>
+      <form class="registration-form" action="mailto:itabone@udec.cl" method="post" enctype="text/plain">
+        <label>
+          Name Surname
+          <input type="text" name="Name Surname" required />
+        </label>
+
+        <label>
+          Email address
+          <input type="email" name="Email address" required />
+        </label>
+
+        <label>
+          Affiliation
+          <input type="text" name="Affiliation" required />
+        </label>
+
+        <fieldset>
+          <legend>Current position</legend>
+          <label><input type="radio" name="Current position" value="Undergraduate student" required /> Undergraduate student</label>
+          <label><input type="radio" name="Current position" value="Graduate student" /> Graduate student</label>
+          <label><input type="radio" name="Current position" value="Postdoctoral researcher" /> Postdoctoral researcher</label>
+          <label><input type="radio" name="Current position" value="Researcher or academic" /> Researcher or academic</label>
+          <label><input type="radio" name="Current position" value="Professional" /> Professional</label>
+          <label><input type="radio" name="Current position" value="Other" /> Other</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Attendance</legend>
+          <label><input type="radio" name="Attendance" value="Both days" required /> Both days</label>
+          <label><input type="radio" name="Attendance" value="19 October only" /> 19 October only</label>
+          <label><input type="radio" name="Attendance" value="20 October only" /> 20 October only</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Need for financial support</legend>
+          <label><input type="radio" name="Need for financial support" value="Yes" required /> Yes</label>
+          <label><input type="radio" name="Need for financial support" value="No" /> No</label>
+        </fieldset>
+
+        <button class="button" type="submit">Submit registration</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Ilaria Tabone · Hosted with GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
