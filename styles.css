@@ -391,6 +391,45 @@ h1 {
   line-height: 1.55;
 }
 
+.about-workshop {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.qr-card {
+  padding: 1.25rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.qr-card h3 {
+  margin-top: 0;
+  color: var(--primary-dark);
+}
+
+.qr-card img {
+  display: block;
+  width: 100%;
+  max-width: 210px;
+  margin: 0 auto 0.75rem;
+  border-radius: 0.75rem;
+}
+
+.qr-card p {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.qr-card .button {
+  margin-top: 0;
+}
+
 .experts-group-title {
   margin: 2rem 0 1rem;
   color: var(--primary-dark);
@@ -783,7 +822,7 @@ footer {
 @media (max-width: 760px) {
   .nav { align-items: flex-start; flex-direction: column; }
   .hero-content { margin-top: 4rem; }
-  .profile-hero, .two-column, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
+  .profile-hero, .two-column, .about-workshop, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
   .profile-photo { width: 112px; height: 112px; order: -1; }
   .day-label, .program-day-label { align-items: flex-start; text-align: left; }
   .links { gap: 0.25rem; }
