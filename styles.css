@@ -513,6 +513,45 @@ h1 {
   margin-top: 0;
 }
 
+.sponsors-section {
+  padding-top: 2rem;
+}
+
+.sponsors-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.sponsors-columns > div {
+  padding: 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.sponsors-columns h2 {
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+}
+
+.sponsor-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.sponsor-list span {
+  display: inline-block;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid rgba(14, 116, 144, 0.22);
+  border-radius: 999px;
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
 .experts-group-title {
   margin: 2rem 0 1rem;
   color: var(--primary-dark);
@@ -922,7 +961,7 @@ footer {
 @media (max-width: 760px) {
   .nav { align-items: flex-start; flex-direction: column; }
   .hero-content { margin-top: 4rem; }
-  .profile-hero, .two-column, .registration-workshop, .financial-support-section, .about-workshop, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
+  .profile-hero, .two-column, .registration-workshop, .financial-support-section, .about-workshop, .sponsors-columns, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
   .profile-photo { width: 112px; height: 112px; order: -1; }
   .day-label, .program-day-label { align-items: flex-start; text-align: left; }
   .links { gap: 0.25rem; }
