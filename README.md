@@ -2,7 +2,7 @@
 
 Static GitHub Pages site for the personal webpage of [`ilaria-tab`](https://github.com/ilaria-tab).
 
-The workshop page is available under `/events/`.
+The workshop page is available under `/events/workshop_patagonia_2026/`.
 
 ## Publish
 
