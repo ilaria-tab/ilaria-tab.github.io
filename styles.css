@@ -652,6 +652,12 @@ h1 {
   object-position: center 28%;
 }
 
+.expert-logo-photo {
+  object-fit: contain;
+  padding: 1rem;
+  background: linear-gradient(180deg, rgba(21, 94, 117, 0.96), rgba(8, 47, 73, 0.96));
+}
+
 .expert-photo-placeholder {
   display: flex;
   align-items: center;
