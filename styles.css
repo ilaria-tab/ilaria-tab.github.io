@@ -581,6 +581,10 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.support-logos img.dark-logo {
+  background: linear-gradient(180deg, rgba(21, 94, 117, 0.96), rgba(8, 47, 73, 0.96));
+}
+
 .supported-by-section {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
