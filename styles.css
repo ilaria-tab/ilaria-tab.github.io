@@ -562,14 +562,14 @@ h1 {
   padding-top: 2rem;
 }
 
-.partner-logos {
+.support-logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   align-items: center;
 }
 
-.partner-logos img {
+.support-logos img {
   display: block;
   width: 100%;
   max-height: 110px;
@@ -1039,7 +1039,7 @@ footer {
 @media (max-width: 760px) {
   .nav { align-items: flex-start; flex-direction: column; }
   .hero-content { margin-top: 4rem; }
-  .profile-hero, .two-column, .registration-workshop, .financial-support-section, .about-workshop, .partner-logos, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
+  .profile-hero, .two-column, .registration-workshop, .financial-support-section, .about-workshop, .support-logos, .cards, .summary-grid, .experts-grid, .day-card, .program-day-card, .session-item, .workshop-meta { grid-template-columns: 1fr; }
   .profile-photo { width: 112px; height: 112px; order: -1; }
   .day-label, .program-day-label { align-items: flex-start; text-align: left; }
   .links { gap: 0.25rem; }
