@@ -622,6 +622,12 @@ h1 {
   margin-top: 0.25rem;
 }
 
+.speaker-divider {
+  margin: 2rem 0 1.4rem;
+  border: 0;
+  border-top: 1px solid rgba(14, 116, 144, 0.22);
+}
+
 .experts-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
