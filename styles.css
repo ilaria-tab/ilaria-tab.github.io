@@ -635,9 +635,9 @@ h1 {
 
 .expert-photo,
 .expert-photo-placeholder {
-  width: 100%;
+  width: 86%;
   aspect-ratio: 1 / 1;
-  margin-bottom: 0.9rem;
+  margin: 0 auto 0.8rem;
   border-radius: calc(var(--radius) - 0.25rem);
 }
 
