@@ -431,6 +431,33 @@ h1 {
   line-height: 1.55;
 }
 
+.session-details {
+  margin-top: 0.75rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid rgba(14, 116, 144, 0.14);
+}
+
+.session-details summary {
+  cursor: pointer;
+  color: var(--primary-dark);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.session-details ul {
+  margin: 0.65rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.session-details li {
+  margin-bottom: 0.4rem;
+}
+
 .registration-workshop,
 .financial-support-section,
 .about-workshop {
