@@ -221,14 +221,14 @@ h1 {
 
 .about-workshop,
 .experts-section,
-.registration-workshop,
+.financial-support-section,
 .supported-by-section {
   background: rgba(255, 255, 255, 0.72);
   box-shadow: 0 0 0 100vmax rgba(255, 255, 255, 0.72);
   clip-path: inset(0 -100vmax);
 }
 
-.financial-support-section,
+.registration-workshop,
 .sponsors-section,
 #contact {
   background: rgba(223, 244, 251, 0.48);
