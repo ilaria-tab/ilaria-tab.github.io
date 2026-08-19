@@ -902,7 +902,7 @@ h1 {
 .pub-title {
   display: inline;
   color: var(--text);
-  font-weight: 780;
+  font-weight: 600;
 }
 
 .pub-journal {
@@ -912,9 +912,10 @@ h1 {
 
 .pub-link {
   display: inline;
-  color: var(--primary-dark);
+  color: var(--muted);
+  font-size: 0.82rem;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 650;
   white-space: nowrap;
 }
 
