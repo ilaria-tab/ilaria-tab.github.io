@@ -104,6 +104,14 @@ a:hover { color: var(--primary-dark); }
 .page-hero .hero-content {
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.page-hero .hero-content h1,
+.page-hero .hero-content .subtitle,
+.page-hero .hero-content .details {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-hero h1 {
