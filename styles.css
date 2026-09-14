@@ -173,6 +173,13 @@ h1 {
 
 .button:hover { color: white; background: var(--primary-dark); }
 
+.button.disabled {
+  background: var(--muted);
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+
 .button.secondary { background: var(--primary-dark); }
 
 .hero-actions {
