@@ -418,20 +418,11 @@ h1 {
 .program-session {
   position: relative;
   overflow: hidden;
-  padding: 1rem 1.15rem;
+  padding: 1.15rem 1.25rem;
   background: rgba(255, 255, 255, 0.94);
   border: 1px solid var(--border);
-  border-left: 6px solid var(--primary);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-}
-
-.program-session::before {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 6px;
-  background: linear-gradient(180deg, #67e8f9, var(--primary-dark));
 }
 
 .session-number {
@@ -496,11 +487,22 @@ h1 {
 }
 
 .program-session > .session-details summary {
+  display: block;
+  width: 100%;
   color: var(--text);
-  font-size: clamp(1rem, 1.6vw, 1.2rem);
-  font-weight: 700;
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  font-weight: 800;
   letter-spacing: 0;
+  line-height: 1.25;
   text-transform: none;
+}
+
+.program-session > .session-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.program-session > .session-details summary::marker {
+  content: "";
 }
 
 .program-session > .session-details p {
